@@ -1,3 +1,56 @@
-# Игнорируемые файлы и каталоги для проекта 
-.vs
-.vscode
+# === Node.js / Vite ===
+node_modules/
+dist/
+build/
+.cache/
+vite.config.timestamp*
+vite.config.js.timestamp*
+
+# === System files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Logs and temporary files ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# === Environment variables ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Editor and IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS-specific ===
+*.swp
+*.swo
+*.bak
+*.orig
+
+# === Testing / coverage ===
+coverage/
+jest-cache/
+jest-output/
+*.spec.ts
+*.spec.js
+
+# === TypeScript / build artifacts (если используешь TS) ===
+*.tsbuildinfo
+
+# === Optional: lock files (если не хочешь их коммитить) ===
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
