@@ -37,3 +37,43 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+button {
+    border-radius: 5rem;
+    padding: 1rem 3rem;
+    color: #ffffff ;
+}
+
+.header {
+    padding: 4rem 11rem 3rem 8rem;
+}
+
+.header__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav a:not(:last-child) {
+    margin-right: 7.1rem;
+}
+
+.header__nav a {
+    font-size: 1.6rem;
+}
+
+.header__logo {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+}
+
+.header__button {
+    margin-left: 55.3rem;
+    background-color: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 98.23%);
+    font-size: 1.6rem;
+}
