@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
-button {
+.button {
     border-radius: 5rem;
     padding: 1rem 3rem;
     color: #ffffff ;
@@ -74,6 +74,32 @@ button {
 
 .header__button {
     margin-left: 55.3rem;
-    background-color: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 98.23%);
+    background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
     font-size: 1.6rem;
 }
+
+.main-display__header {
+    max-width: 76rem;
+    margin-bottom: 5rem;
+    font-size: 6.4rem;
+}
+
+.main-display__timer {
+    display: flex;
+}
+
+.timer__item {
+    width: 10.2rem;
+    height: 11.2rem;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer__item:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.timer__count
