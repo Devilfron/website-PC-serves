@@ -44,7 +44,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
     padding: 4rem 11rem 3rem 8rem;
+    z-index: 10;
 }
 
 .header__wrap {
@@ -78,6 +84,22 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.6rem;
 }
 
+.main-display__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.main-display {
+    padding-top: 27rem;
+}
+
+.main-display .container {
+    position: relative;
+    z-index: 10;
+}
+
 .main-display__header {
     max-width: 76rem;
     margin-bottom: 5rem;
@@ -86,6 +108,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-display__timer {
     display: flex;
+    margin-bottom: 7.6rem;
+}
+
+.main-display__button {
+    background: linear-gradient(141deg, #df5950 0%, #451046 100%);
+    font-size: 1.6rem;
 }
 
 .timer__item {
@@ -102,4 +130,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 3rem;
 }
 
-.timer__count
+.timer__count {
+    font-size: 3.6rem;
+}
+
+.timer__text {
+    font-size: 1.6rem;
+    opacity: 0.4;
+}
